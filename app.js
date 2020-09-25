@@ -15,9 +15,9 @@ app.get('/api', (req, res) => {
     else {
         res.send("You need to include a url to a swagger document (ie ?url=http://github.com/...) ");
     }
-    //res.end();
 });
-app.listen(port, () => {
+app.set('port', process.env.PORT || 3000);
+app.listen(app.get('port'), () => {
     console.log(`API Parser is running at http://localhost:${port}`);
 });
 //# sourceMappingURL=app.js.map
