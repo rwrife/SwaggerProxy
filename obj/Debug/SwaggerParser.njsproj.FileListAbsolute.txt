@@ -1,0 +1,3 @@
+D:\Projects\SwaggerParser\obj\Debug\SwaggerParser.njsprojAssemblyReference.cache
+D:\Projects\SwaggerParser\obj\Debug\SwaggerParser.njsproj.CoreCompileInputs.cache
+D:\Projects\SwaggerParser\bin\Microsoft.NodejsTools.WebRole.dll
