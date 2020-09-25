@@ -18,7 +18,7 @@ app.get('/api', (req, res) => {
     }
 });
 
-app.set('port', process.env.APPSETTING_PORT || 3000);
+app.set('port', process.env.PORT || 3000);
 
 app.listen(app.get('port'), () => {
     console.log(`API Parser is running at http://localhost:${port}`);
